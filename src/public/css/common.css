@@ -1,0 +1,32 @@
+body {
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.header__inner {
+    margin: 0 auto;
+    padding: 20px 15px;
+    max-width: 1230px;
+    border-bottom: 1px solid #C6BCB7;
+}
+
+.header__utilities {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.header__title {
+    flex: 1;
+    text-align: center;
+    color: #8B7968;
+    font-family: "Donegal One", serif;
+    font-size: 20px;
+}
+
+.header__utilities>.button-form {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}

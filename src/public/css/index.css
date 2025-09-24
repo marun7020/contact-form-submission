@@ -1,0 +1,190 @@
+.contact-form__content {
+    max-width: 1230px;
+    margin: 0 auto;
+    height: 100%;
+}
+
+.contact-form__heading {
+    text-align: center;
+    padding: 20px 0;
+    color: #8B7968;
+    font-family: "Donegal One", serif;
+}
+
+.form__group {
+    display: flex;
+    align-items: flex-start;
+    width: 70%;
+    margin: 0 auto 20px;
+}
+
+.form__group-title {
+    width: 200px;
+    flex-shrink: 0;
+    display: flex;
+    align-items: flex-start;
+    padding-top: 8px;
+    color: #8B7968;
+}
+
+.form__label--required::after {
+    content: "※";
+    color: red;
+    margin-left: 2px;
+}
+
+.form__group-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.form__input--name {
+    display: flex;
+    gap: 15px;
+}
+
+.form__input--name input {
+    flex: 1;
+    width: 100%;
+    height: 40px;
+    background-color: #F5F5F5;
+    color: #C6BCB7;
+    padding: 0 20px;
+    margin-bottom: 20px;
+    line-height: 40px;
+    box-sizing: border-box;
+    border: none;
+}
+
+.form__input--name input:valid {
+    color: #8B7968;
+}
+
+.form__input--radio {
+    display: flex;
+    gap: 15px;
+}
+
+.form__input--radio input[type="radio"] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    border: 1px solid #C6BCB7;
+    background-color: #F5F5F5;
+    cursor: pointer;
+    position: relative;
+}
+
+.form__input--radio input[type="radio"]:checked {
+    background-color: #8B7968;
+    border-color: #8B7968;
+}
+
+.form__input--radio label {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 14px;
+    color: #8B7968;
+    cursor: pointer;
+}
+
+.form__input--text input,
+.form__input--text textarea {
+    width: 100%;
+    background-color: #F5F5F5;
+    color: #C6BCB7;
+    padding: 0 20px;
+    margin-bottom: 20px;
+    height: 40px;
+    line-height: 40px;
+    box-sizing: border-box;
+    border: none;
+}
+
+.form__input--text input:valid,
+.form__input--text textarea:valid {
+    color: #8B7968;
+}
+
+.form__input--text textarea {
+    height: 100px;
+    line-height: 1.5;
+    padding: 8px 20px;
+}
+
+.form__input--tel {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.form__input--tel input {
+    flex: 1;
+    width: 100%;
+    height: 40px;
+    padding: 0 20px;
+    line-height: 40px;
+    font-size: 14px;
+    color: #C6BCB7;
+    background-color: #F5F5F5;
+    box-sizing: border-box;
+    margin-bottom: 0;
+    border: none;
+}
+
+.form__input--tel input:valid {
+    color: #8B7968;
+}
+
+.form__input--tel span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    line-height: 40px;
+    font-size: 14px;
+    color: #8B7968;
+}
+
+.form__input--category select {
+    width: 60%;
+    height: 40px;
+    background-color: #F5F5F5;
+    color: #C6BCB7;
+    padding: 0 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    line-height: 40px;
+    box-sizing: border-box;
+    border: none;
+}
+
+.form__input--category select:valid {
+    color: #8B7968;
+}
+
+.form__error {
+    color: #ff0000;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.form__button {
+    display: flex;
+    justify-content: center;
+}
+
+.form__button button {
+    width: 100px;
+    height: 30px;
+    border: none;
+    background: #8B7968;
+    color: #F2ECE7;
+    cursor: pointer;
+    margin-bottom: 50px;
+}
